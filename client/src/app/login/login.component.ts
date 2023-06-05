@@ -27,17 +27,11 @@ export class LoginComponent {
 
     // Check if both username and password are provided
     if (usernameInput && passwordInput) {
-
-      console.log("helloooooo");
-
       this._ngZone.run(() => {
-        console.log("helloooooo2222");
-
-        this._router.navigate(['/parent']);
+        this._router.navigate(['/dashboard']);
       });
     } else {
       // Display an error message or perform any other desired action
-      console.log('Please provide both username and password.');
     }
   }
 }
