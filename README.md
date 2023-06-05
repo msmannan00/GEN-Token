@@ -1,5 +1,72 @@
-# Angular + Python + Flask + Mongo DB CRUD
+<h1>Assesment | Proof-of-Concept System Backed by Blockchain</h1>
 
-<div class="github" style="border-color: rgb(233, 236, 239) rgb(233, 236, 239) rgb(233, 236, 239) rgb(58, 131, 181); border-image: initial; border-radius: 0.25rem; border-style: solid; border-width: 1px 1px 1px 0.25rem; box-sizing: border-box; margin-bottom: 1.25rem; margin-top: 1.25rem; overflow-wrap: break-word; padding: 1.25rem;"><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;">Step1: Install Python 3 -&nbsp;<a href="https://www.python.org/downloads/" style="background: transparent; color: #bf8b38; text-decoration-line: none;">click here</a></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;">Step2: Install Angular -&nbsp;<a href="https://angular.io/guide/setup-local" style="background: transparent; color: #bf8b38; text-decoration-line: none;">click here</a></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;">Step3: Install VS code -&nbsp;<a href="https://code.visualstudio.com/" style="background: transparent; color: #bf8b38; text-decoration-line: none;">click here</a></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;">Step4: Download/clone source code -&nbsp;<a href="https://github.com/knowledgefactory4u/python-flask-angular-mongodb-crud" style="background: transparent; color: #bf8b38; text-decoration-line: none;">click here</a></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;">Step5: Install MongoDB -&nbsp;<a href="https://www.mongodb.com/try/download/community" style="background: transparent; color: #bf8b38; text-decoration-line: none;">click here</a></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><h4 style="background-color: white; box-sizing: border-box; font-weight: 400; margin: 0px;"><b><span style="font-family: inherit; font-size: medium;">Backend setup</span></b></h4><div style="background-color: white;"><b><span style="font-family: inherit; font-size: medium;"><br></span></b></div><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><span style="color: #212529;">Step6:&nbsp;</span><span style="color: #212529;">Download the dependencies using the following command&nbsp;</span></span></p><p style="box-sizing: border-box; margin: 0px;"><span style="color: white; font-family: inherit; font-size: medium;"><b style="background-color: black;">pip install flask flask_cors pymongo</b></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><span style="color: #212529;">Step7:&nbsp;&nbsp;</span><span style="background-color: transparent;"><span style="color: #212529;">Run our backend application using the following command&nbsp;</span></span></span></p><p style="box-sizing: border-box; margin: 0px;"><span style="color: white; font-family: inherit; font-size: medium;"><b style="background-color: black;">python3 app.py</b></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><b><span style="background-color: black; color: white;"><span style="font-family: inherit; font-size: medium;"><br></span></span></b></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><h4 style="background-color: white; box-sizing: border-box; color: #212529; font-weight: 400; margin: 0px;"><b><span style="font-family: inherit; font-size: medium;">Frontend setup</span></b></h4><div style="background-color: white;"><b><span style="font-family: inherit; font-size: medium;"><br></span></b></div><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><span style="color: #212529;">Step8:&nbsp;</span><span style="color: #212529;">Download the dependencies using the following command&nbsp;</span></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="color: white; font-family: inherit; font-size: medium;"><b style="background-color: black;">npm install</b></span></p><p style="background-color: white; box-sizing: border-box; color: #212529; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><br></span></p><p style="background-color: white; box-sizing: border-box; margin: 0px;"><span style="font-family: inherit; font-size: medium;"><span style="color: #212529;">Step9: Run the Frontend application -&nbsp;</span><b><span style="background-color: black; color: white;">ng serve</span></b></span></p></div>
+This repository contains the code and documentation for a Proof-of-Concept (PoC) system that leverages blockchain technology. The system aims to demonstrate the potential use of blockchain for secure and transparent transactions.
+Table of Contents
 
-Your application will run locally at http://localhost:4200
+    Overview
+    Features
+    System Architecture
+    Prerequisites
+    Installation
+    Usage
+    Contributing
+    License
+
+Overview
+
+The Proof-of-Concept system is built using flask framework with angular2, which provides a decentralized and immutable ledger for recording transactions. The system allows participants to perform transactions and store them securely on the blockchain.
+Features
+
+    User registration and authentication
+    Secure and transparent transactions
+    Immutable transaction history on the blockchain
+
+System Architecture
+
+The system consists of the following components:
+
+    Frontend: The user interface for interacting with the system.
+    Backend: The backend server that handles user authentication, transaction processing, and interacts with the blockchain network.
+
+For a detailed architecture diagram and component interaction, refer to architecture.md.
+Prerequisites
+
+Before running the PoC system, ensure you have the following prerequisites:
+
+    Ubuntu
+    Mongodb
+    Angular
+
+Installation
+
+To install and configure the system, follow these steps:
+
+    Clone the repository: git clone https://github.com/your-username/your-repo.git
+    Install Python
+    Install Angular
+    Install MongoDB
+
+To configure backend, follow these steps:
+
+    cd backend
+    pip install flask flask_cors pymongo
+    requirements.txt
+    python3 app.py
+
+To configure client, follow these steps:
+
+    cd client
+    npm install
+    ng serve
+
+For detailed usage instructions and examples, refer to usage.md.
+Contributing
+
+Contributions to the Proof-of-Concept system are welcome. If you'd like to contribute, please follow these guidelines:
+
+    contact msmannan00@gmail.com
+
+For more information, see CONTRIBUTING.md.
+License
+
+The Proof-of-Concept system is released under the MIT License.
