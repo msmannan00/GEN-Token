@@ -1,4 +1,4 @@
-Proof-of-Concept System Backed by Blockchain
+<h1>Assesment | Proof-of-Concept System Backed by Blockchain</h1>
 
 This repository contains the code and documentation for a Proof-of-Concept (PoC) system that leverages blockchain technology. The system aims to demonstrate the potential use of blockchain for secure and transparent transactions.
 Table of Contents
@@ -14,13 +14,12 @@ Table of Contents
 
 Overview
 
-The Proof-of-Concept system is built using [insert blockchain platform/framework], which provides a decentralized and immutable ledger for recording transactions. The system allows participants to perform transactions and store them securely on the blockchain.
+The Proof-of-Concept system is built using flask framework with angular2, which provides a decentralized and immutable ledger for recording transactions. The system allows participants to perform transactions and store them securely on the blockchain.
 Features
 
     User registration and authentication
     Secure and transparent transactions
     Immutable transaction history on the blockchain
-    [Add more features]
 
 System Architecture
 
