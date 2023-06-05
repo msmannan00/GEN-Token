@@ -33,31 +33,31 @@ Prerequisites
 
 Before running the PoC system, ensure you have the following prerequisites:
 
-    [Ubuntu]
-    [Mongodb]
-    [Angular]
+    Ubuntu
+    Mongodb
+    Angular
 
 Installation
 
 To install and configure the system, follow these steps:
 
     Clone the repository: git clone https://github.com/your-username/your-repo.git
-    [Install Python]
-    [Install Angular]
-    [Install MongoDB]
+    Install Python
+    Install Angular
+    Install MongoDB
 
 To configure backend, follow these steps:
 
-    [cd backend]
-    [pip install flask flask_cors pymongo]
-    [requirements.txt]
-    [python3 app.py]
+    cd backend
+    pip install flask flask_cors pymongo
+    requirements.txt
+    python3 app.py
 
 To configure client, follow these steps:
 
-    [cd client]
-    [npm install]
-    [ng serve]
+    cd client
+    npm install
+    ng serve
 
 For detailed usage instructions and examples, refer to usage.md.
 Contributing
