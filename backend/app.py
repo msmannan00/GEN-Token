@@ -2,6 +2,7 @@ from flask_pymongo import PyMongo
 from flask import Flask, jsonify, request
 import yaml
 from router import register_routes
+from flask_cors import CORS
 
 class Server(Flask):
     def __init__(self, *args, **kwargs):
@@ -11,6 +12,7 @@ class Server(Flask):
 
 def create_app():
     app = Server(__name__)
+    CORS(app)  # Enable CORS
 
     # Load configuration from YAML file
     def load_config_from_yaml(app, filename):
