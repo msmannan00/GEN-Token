@@ -25,8 +25,8 @@ System Architecture
 
 The system consists of the following components:
 
-    [Frontend]: The user interface for interacting with the system.
-    [Backend]: The backend server that handles user authentication, transaction processing, and interacts with the blockchain network.
+    Frontend: The user interface for interacting with the system.
+    Backend: The backend server that handles user authentication, transaction processing, and interacts with the blockchain network.
 
 For a detailed architecture diagram and component interaction, refer to architecture.md.
 Prerequisites
