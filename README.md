@@ -64,9 +64,7 @@ Contributing
 
 Contributions to the Proof-of-Concept system are welcome. If you'd like to contribute, please follow these guidelines:
 
-    [Guideline 1]
-    [Guideline 2]
-    [Guideline 3]
+    contact msmannan00@gmail.com
 
 For more information, see CONTRIBUTING.md.
 License
