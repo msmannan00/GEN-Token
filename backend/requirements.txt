@@ -1,6 +1,0 @@
-jinja2
-Flask-PyMongo
-watchdog
-pyqtwebengine<5.13
-pyqt5==5.12.3
-pymongo

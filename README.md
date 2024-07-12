@@ -1,72 +1,72 @@
-<h1>Assesment | Proof-of-Concept System Backed by Blockchain</h1>
+# Smart Contract Hello World
 
-This repository contains the code and documentation for a Proof-of-Concept (PoC) system that leverages blockchain technology. The system aims to demonstrate the potential use of blockchain for secure and transparent transactions.
-Table of Contents
+This repository presents practices about:
 
-    Overview
-    Features
-    System Architecture
-    Prerequisites
-    Installation
-    Usage
-    Contributing
-    License
+- Setup a blockchain.
+- Develop Ethereum smart contract.
+- Deploy the contract and test it.
 
-Overview
+## Quick Demo
 
-The Proof-of-Concept system is built using flask framework with angular2, which provides a decentralized and immutable ledger for recording transactions. The system allows participants to perform transactions and store them securely on the blockchain.
-Features
+*The main instructions are given below and also the tutorial video of this project can be found on [my YouTube channel](https://www.youtube.com/watch?v=Oxdop144I7Q).*
 
-    User registration and authentication
-    Secure and transparent transactions
-    Immutable transaction history on the blockchain
+First, clone the repository and build the project using truffle by this command:
 
-System Architecture
+    truffle build
 
-The system consists of the following components:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104853166-15802300-5910-11eb-84d9-4b3c66bbbe45.png">
+</p>
 
-    Frontend: The user interface for interacting with the system.
-    Backend: The backend server that handles user authentication, transaction processing, and interacts with the blockchain network.
+After building the project and starting ganache which provides ethereum blockchain network on your local, our smart contract can be deployed using truffle by this command:
 
-For a detailed architecture diagram and component interaction, refer to architecture.md.
-Prerequisites
+    truffle migrate
 
-Before running the PoC system, ensure you have the following prerequisites:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104853342-43b23280-5911-11eb-9aec-f9e534af1bf3.png">
+</p>
 
-    Ubuntu
-    Mongodb
-    Angular
+Now, our smart contract has been built and deployed so we can perform test on it by these commands respectively:
 
-Installation
+    var hw;
+    Main.deployed().then(function(d){hw = d;});
+    hw.setUserName("Ahmet")
+    hw.printMessage.call() // prints Hello Ahmet!
 
-To install and configure the system, follow these steps:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104853415-bae7c680-5911-11eb-9322-5b0f18360fdf.png">
+</p>
 
-    Clone the repository: git clone https://github.com/your-username/your-repo.git
-    Install Python
-    Install Angular
-    Install MongoDB
+Moreover, you can use [developed unit test class](https://github.com/ahmetozlu/smart_contract_helloworld/blob/main/test/Main.test.js) to perform unit testing:
 
-To configure backend, follow these steps:
+    truffle test
 
-    cd backend
-    pip install flask flask_cors pymongo
-    requirements.txt
-    python3 app.py
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/105637713-df96ed80-5e7f-11eb-8ea9-43f976c10a5c.png">
+</p>
 
-To configure client, follow these steps:
+## Installation
 
-    cd client
-    npm install
-    ng serve
+### Setup
 
-For detailed usage instructions and examples, refer to usage.md.
-Contributing
+- **Truffle**
 
-Contributions to the Proof-of-Concept system are welcome. If you'd like to contribute, please follow these guidelines:
+      sudo npm install -g truffle@5.1.39 --unsafe-perm=true
 
-    contact msmannan00@gmail.com
+- **Ganache** installation guide can be found in [here](https://www.trufflesuite.com/ganache).
 
-For more information, see CONTRIBUTING.md.
-License
+## Citation
+If you use this code for your publications, please cite it as:
 
-The Proof-of-Concept system is released under the MIT License.
+    @ONLINE{vdtct,
+        author = "Ahmet Özlü",
+        title  = "Smart Contract Hello World",
+        year   = "2021",
+        url    = "https://github.com/ahmetozlu/smart_contract_helloworld"
+    }
+
+## Author
+Ahmet Özlü
+
+## License
+This system is available under the MIT license. See the LICENSE file for more info.
